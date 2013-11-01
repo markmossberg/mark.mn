@@ -1,0 +1,90 @@
+/* Mark Mossberg */
+
+/* General ***********/
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.main {
+    padding: 40px 15px;
+    text-align: left;
+}
+
+.main-content {
+    width: 60%;
+    float: left;
+    margin-left: 20px;
+}
+
+.main-content-body p {
+    font-size: 1.3em;
+}
+
+.main h1 {
+    margin-top: 0;
+}
+
+.main-social img {
+    width: 40px;
+}
+
+.main-social li {
+    margin-bottom: 5px;
+}
+
+.main-social {
+    list-style-type: none;
+    float: left;
+}
+
+.main-social img {
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+}
+
+.main-social img:hover {
+    opacity: .7;
+}
+
+.lead {
+    font-size: 25px;
+}
+
+.headshot {
+    -moz-transition: -moz-transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+}
+
+.headshot:hover {
+    opacity: 1;
+    -moz-transform:rotate(720deg);
+    -webkit-transform:rotate(720deg);
+    -o-transform:rotate(720deg);
+    transform:rotate(720deg);
+}
+
+/* Social Icons ***********/
+
+.twitter {
+    background-color: #00ACED;
+}
+.github {
+    background-color: #4183C4;
+}
+.linkedin {
+    background-color: #007FB1;
+}
+.tumblr {
+    background-color: #2C4762;
+}
+.email {
+    background-color: #2ecc71;
+}
