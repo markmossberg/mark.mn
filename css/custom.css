@@ -10,22 +10,35 @@ a:hover {
     padding-top: 50px;
 }
 
+.mcb-left {
+    width: 60%;
+    float: left;
+}
+
+.mcb-right {
+    opacity: 0;
+    float: left;
+    width: 40%;
+}
 .main {
     padding: 40px 15px;
     text-align: left;
 }
 
 .main-content {
-    width: 60%;
+    width: 90%;
     float: left;
     margin-left: 20px;
 }
 
+.main-content-body {
+    overflow: hidden;
+}
 .main-content-body p {
     font-size: 1.3em;
 }
 
-.main h1 {
+.main h1, .main h2 {
     margin-top: 0;
 }
 
