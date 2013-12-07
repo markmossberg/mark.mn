@@ -1,4 +1,1 @@
-[mark.mn](http://mark.mn)
-=======
-
-Personal website, complete redesign.
+Personal website, hosted at [mark.wf](http://mark.wf)
