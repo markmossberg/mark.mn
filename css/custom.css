@@ -107,3 +107,12 @@ a:hover {
 .email {
     background-color: #2ecc71;
 }
+
+/* Responsive ***********/
+
+@media (max-width: 1200px) {
+    .main-social li {
+        float: left;
+        margin-right: 15px;
+    }
+}
