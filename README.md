@@ -1,1 +1,1 @@
-Personal website, hosted at [mark.wf](http://mark.wf)
+Personal website, hosted at [mark.lc](http://mark.lc)
