@@ -81,69 +81,78 @@
                     <div class="mcb-right">
                         <h2><a class="transition text-primary icon-arrow-left-a" href="#"></a> Projects</h2>
                             <hr>
-                            <h3>LAN Academy
-                                <a href="http://github.com/lanacademy/oer-import-scripts" target="_blank">
+                            <h3>
+                                <a href="http://github.com/markmossberg/lockpick" target="_blank">lockpick
                                 <img class="text-primary" src="img/github-black.png" /></a>
                             </h3>
                                 <p>
-                                    Lately I've been volunteering for <a href="http://lanacademy.org">LAN Academy</a>,
-                                    an early-stage nonprofit building an open source educational platform designed
-                                    to allow anyone in the world to have a great secondary education.
-                                    To do this, they use
-                                    <a href="http://en.wikipedia.org/wiki/Open_educational_resources" target="_blank">
-                                        open educational resources</a> which are essentially free educational materials
-                                    available on the internet. I've been writing the scripts that process these OER's
-                                    into a format that can be used by LAN Academy's platform.
+                                    A script I wrote to let me <b>unlock my dorm door via the command line</b>. It
+                                    piggybacks off of a little known web interface provided by Northeastern that lets
+                                    a student access functions such as changing their ID card PIN, and unlocking their
+                                    door from a mobile website. After doing some elementary reverse engineering of the
+                                    web application, I wrote this script which automates the process of logging a user
+                                    into the web interface, and triggering the door unlock mechanism.
                                 </p>
-                            <h3>carve
-                                <a href="http://github.com/markmossberg/carve" target="_blank">
-                                    <img class="text-primary" src="img/github-black.png" /></a>
+                            <h3>
+                                <a href="http://github.com/markmossberg/valas" target="_blank">valas
+                                <img class="text-primary" src="img/github-black.png" /></a>
+                            </h3>
+                                <p>
+                                    Valas stands for the "Vengeful Auth.Log Analysis Script" and was semi-joke project
+                                    that I worked on at <a href="http://hackbeanpot.com" target="_blank">Hack Beanpot 2014</a>.
+                                    It's a script that <b>processes an Ubuntu server's <code>auth.log</code> file and analyzes the
+                                    invalid login attempts</b>, producing a chart of the countries, and some other
+                                    analytics. It also <b>port scans every invalid host</b> and lets you know what services they're
+                                    running.
+                                </p>
+                            <h3>
+                                <a href="http://github.com/markmossberg/carve" target="_blank">carve
+                                <img class="text-primary" src="img/github-black.png" /></a>
                             </h3>
                                 <p>This was my hack for the 2013
                                 <a href="https://sites.google.com/site/cthackathon/">Cipher Tech Mobile
                                     Forensics Hackathon</a>.<small> It won 1st place.</small></p>
                                 <p>
-                                    The challenge at this hackathon was to extract the most information from a
-                                    supplied iPhone system image. I was able to extract a good amount of the data
+                                    The challenge at this hackathon was to <b>extract the most information from a
+                                    supplied iPhone system image</b>. I was able to extract a good amount of the data
                                     during the hackathon, but I've continued to work on thisto improve the script and
                                     extract more data.
                                 </p>
-                                <h3>tuneSniffer
-                                    <a href="http://github.com/markmossberg/tuneSniffer" target="_blank">
-                                        <img class="text-primary" src="img/github-black.png" /></a>
-                                </h3>
-                                    <p>
-                                        A script I wrote that extracts mp3 files from sniffed network traffic.
-                                        Written in order to improve my knowledge of TCP/IP networking and Python.
-                                    </p>
-                                <h3>airport+
-                                    <a href="http://github.com/markmossberg/airport_plus" target="_blank">
-                                        <img class="text-primary" src="img/github-black.png" /></a>
-                                </h3>
-                                    <p>
-                                        Macs come with a pretty awesome wifi stumbling utility called
-                                        <code>airport</code> that lets you see all sorts of cool information about
-                                        nearby wireless networks, including SSID, BSSID, Channel, and encryption method.
-                                        One feature I would have liked also was the vendor of the router, so I decided
-                                        to create a wrapper script that implemented this feature.
-                                    </p>
+                            <h3>
+                                <a href="http://github.com/markmossberg/tuneSniffer" target="_blank">tuneSniffer
+                                <img class="text-primary" src="img/github-black.png" /></a>
+                            </h3>
+                                <p>
+                                    A script I wrote that <b>extracts mp3 files from sniffed network traffic</b>.
+                                    Written in order to improve my knowledge of TCP/IP networking and Python.
+                                </p>
+                            <h3>
+                                <a href="http://github.com/markmossberg/airport_plus" target="_blank">airport+
+                                <img class="text-primary" src="img/github-black.png" /></a>
+                            </h3>
+                                <p>
+                                    Macs come with a pretty awesome wifi stumbling utility called
+                                    <code>airport</code> that lets you see all sorts of cool information about
+                                    nearby wireless networks, including SSID, BSSID, Channel, and encryption method.
+                                    One feature I would have liked also was the vendor of the router, so I decided
+                                    to create a wrapper script that implemented this feature.
+                                </p>
                     </div> <!-- mcb-right -->
                 </div> <!-- main-content-body -->
             </div> <!-- main-content -->
         </div> <!-- main -->
     </div><!-- /.container -->
     <!-- js -->
-    <script src="./index_files/jquery-1.10.2.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./js/custom.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36552439-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-36552439-1', 'mark.lc');
+        ga('send', 'pageview');
     </script>
 </body>
 </html>
